@@ -1,0 +1,36 @@
+.formRecipe {}
+
+.formRecipe__input {
+    width: 300px;
+    padding: 5px 10px;
+    display: block; /* break-line */
+    margin-bottom: 15px;
+    border-color: #cccccc;
+    font-family: 'Do Hyeon', 'Arial', sans-serif;
+}
+
+.formRecipe__label {
+    font-size: 20px;
+    color: rgb(177, 175, 175);
+}
+
+.formRecipe__submit {
+    font-size: 18px;
+    background-color: lightblue;
+    color: white;
+    padding: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-color: lightslategray;
+    font-family: 'Do Hyeon', 'Arial', sans-serif;
+}
+
+.formRecipe__input, .formRecipe__submit {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+::placeholder {
+    color: rgb(148, 196, 212);
+}

@@ -1,0 +1,16 @@
+.recipeItem {}
+
+.recipeItem__info {
+    padding: 10px;
+}
+
+.recipeItem__img {
+    width: 30px;
+    height: 30px;
+}
+
+.recipeItem__link {
+    color: rgb(38, 170, 214);
+}
+
+

@@ -1,0 +1,25 @@
+.tableRecipes {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.tableRecipes__head {
+    background-color: rgb(65, 64, 64);
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: rgb(224, 222, 222);
+}
+
+table tbody tr:nth-child(even) {
+    background-color: lightblue;
+}

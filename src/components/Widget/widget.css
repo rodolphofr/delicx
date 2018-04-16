@@ -1,0 +1,8 @@
+.widget {
+    background-color: lightcyan;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightblue;
+    padding: 20px;
+}
